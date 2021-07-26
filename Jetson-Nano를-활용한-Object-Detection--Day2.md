@@ -172,7 +172,7 @@ gnome-system-monitor
 
    3. <img src = "/image/openimage7.PNG" width = "400px">
 
-   4. <img src = "/image/openimage8.PNG" width = "400px">
+   4. <img src = "/image/openimage8.PNG" width = "200px">
 
 
 
@@ -258,9 +258,10 @@ __카메라로 촬영되는 영상으로 테스트__
 1. 외장 메모리 마운트 된 Docker 에 아래 코드 입력        
 
 2. ~~~
+   cd python/training/detection/ssd
    detectnet.py --model=models/ssd-mobilenet.onnx --labels=models/labels.txt --input-blob=input_0 --output-cvg=scores --output-bbox=boxes --input-width=300 --input-height=300 csi://0
    ~~~
-
+   
 3. <img src = "/image/onnx8.PNG" width = "400px">
 
 4. <img src = "/image/onnx9.PNG" width = "400px">
