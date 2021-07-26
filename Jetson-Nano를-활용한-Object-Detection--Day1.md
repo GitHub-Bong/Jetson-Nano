@@ -266,6 +266,10 @@ SSD 모델은, 테두리 상자 조정을 위해 픽셀이나 특징들을 재 �
 
 SSD의 알고리즘은 각 feature map 에서 다른 스케일과 비율로 default box를 생성하고 모델을 통해 계산된 좌표와 클래스 값을 활용해 bounding box 를 생성              
 
+![image](https://github.com/dusty-nv/jetson-inference/raw/dev/docs/images/pytorch-ssd-mobilenet.jpg)              
+
+​            
+
 ​               
 
 [detectnet.py](https://colab.research.google.com/drive/1G9ecWl7AXFsid4LSholy_I_wgrHkoxAm?usp=sharing)
