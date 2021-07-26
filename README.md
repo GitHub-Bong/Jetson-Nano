@@ -10,6 +10,10 @@ __7월 19일 ~ 7월 30일__
 
 ### Day1: JetsonNano 연결, Docker container 설치, Object Detection 실습         
 
+### Day2: Transfer learning 이론 및 실습        
+
+
+
 
 
 
